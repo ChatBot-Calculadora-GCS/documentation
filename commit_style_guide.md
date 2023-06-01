@@ -18,43 +18,41 @@ Onde:
 
 ## Tipos
 Os tipos de mensagens de commit devem ser apenas um dentre as opções a seguir:
-- FEAT: Uma nova funcionalidade adicionada
-- FIX: Alterações que afetam o sistema de compilação ou dependências externas, uma correção de bug
-- REFACTOR: Uma alteração de código que não corrige um bug nem adiciona um recurso, mas torna o código mais limpo, eficiente ou bem documentado
-- DOCS: Documentação
-- REVERT: Reverter um commit anterior
-- TEST: Adiciona testes ausentes ou corrige testes existentes
-- STYLE: Alterações que não afetam o comportamento do código (espaço em branco, formatação, falta ponto e vírgula, etc.)
-- PERF: Uma alteração de código que melhora o desempenho da aplicação
-- BUILD: Alterações que afetam o sistema de compilação ou dependências externas
-- CHORE: Alterações na configuração, build, ou outras alterações que não modificam os arquivos src ou de teste
-- CI: Alterações em nossos arquivos e scripts de configuração de CI (exemplos de escopos: Travis, Circle, BrowserStack, SauceLabs)
+- feat: Uma nova funcionalidade adicionada
+- fix: Alterações que afetam o sistema de compilação ou dependências externas, uma correção de bug
+- refactor: Uma alteração de código que não corrige um bug nem adiciona um recurso, mas torna o código mais limpo, eficiente ou bem documentado
+- docs: Documentação
+- revert: Reverter um commit anterior
+- test: Adiciona testes ausentes ou corrige testes existentes
+- style: Alterações que não afetam o comportamento do código (espaço em branco, formatação, falta ponto e vírgula, etc.)
+- perf: Uma alteração de código que melhora o desempenho da aplicação
+- build: Alterações que afetam o sistema de compilação ou dependências externas
+- chore: Alterações na configuração, build, ou outras alterações que não modificam os arquivos src ou de teste
+- ci: Alterações em nossos arquivos e scripts de configuração de CI (exemplos de escopos: Travis, Circle, BrowserStack, SauceLabs)
 
 ## Escopo
 Os escopos podem ser usados para indicar qual parte do projeto está sendo modificada. Alguns exemplos de escopos desta aplicação incluem:
-- Sobre
-- Formação acadêmica
-- Header
-- Footer
-- Formação profissional
-- Configuração de Software
-- Pesquisa
-- Programa
-- Voluntariado
-- Certificações
+- GCS
+- ED
+- IA
+- PROG1
+- PROGMOV
+- PROGWEB
+
+O assunto deve ser uma descrição clara e sucinta do que foi feito. Ele deve ser escrito em letras maiúsculas.
 
 ## Assunto
-O assunto deve ser uma descrição clara e sucinta do que foi feito. Ele deve ser escrito em letras minúsculas e sem ponto final.
+O assunto deve ser uma descrição clara e sucinta do que foi feito. Ele deve ser escrito em letras minúsculas, com exceção da primeira letra, e sem ponto final.
 
 ## Corpo
 O corpo é opcional e pode ser usado para fornecer mais informações sobre as mudanças feitas. Ele deve ser escrito em letras minúsculas e separado do assunto por uma linha em branco.
 
 ## Rodapé
-O rodapé é opcional e pode ser usado para fornecer informações adicionais, como números de issues relacionadas, referências a outras mudanças, etc. Ele deve ser escrito em letras minúsculas e separado do corpo por uma linha em branco.
+O rodapé é opcional e pode ser usado para fornecer informações adicionais, como números de issues relacionadas, referências a outras mudanças, etc. Ele deve ser escrito em letras minúsculas, com exceção da primeira letra, e separado do corpo por uma linha em branco.
 
 ## Exemplo
-feat(Sobre): Adicionar descrição do usuário.
+feat(GCS): Adiciona descrição do trabalho
 
-Permitir que o usuário adicione sobre quem é ele.
+Adiciona descrição do trabalho final da disciplina de gerência de configuração de software do 5° semestre (2023.1) do professor Awdren de Lima Fontão
 
 Fixes #123
