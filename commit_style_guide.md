@@ -16,20 +16,6 @@ Onde:
 - [corpo]: Uma explicação mais detalhada das mudanças feitas, justificativas, etc.
 - [rodapé]: Informações adicionais, como número de issues relacionadas, referências a outras mudanças, etc.
 
-## Tipos
-Os tipos de mensagens de commit devem ser apenas um dentre as opções a seguir:
-- FEAT: Uma nova funcionalidade adicionada
-- FIX: Alterações que afetam o sistema de compilação ou dependências externas, uma correção de bug
-- REFACTOR: Uma alteração de código que não corrige um bug nem adiciona um recurso, mas torna o código mais limpo, eficiente ou bem documentado
-- DOCS: Documentação
-- REVERT: Reverter um commit anterior
-- TEST: Adiciona testes ausentes ou corrige testes existentes
-- STYLE: Alterações que não afetam o comportamento do código (espaço em branco, formatação, falta ponto e vírgula, etc.)
-- PERF: Uma alteração de código que melhora o desempenho da aplicação
-- BUILD: Alterações que afetam o sistema de compilação ou dependências externas
-- CHORE: Alterações na configuração, build, ou outras alterações que não modificam os arquivos src ou de teste
-- CI: Alterações em nossos arquivos e scripts de configuração de CI (exemplos de escopos: Travis, Circle, BrowserStack, SauceLabs)
-
 ## Escopo
 Os escopos podem ser usados para indicar qual parte do projeto está sendo modificada. Alguns exemplos de escopos desta aplicação incluem:
 - Sobre
