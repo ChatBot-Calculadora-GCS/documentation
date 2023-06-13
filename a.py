@@ -10,3 +10,4 @@ posicao = int(input())
 
 # Bota alguma coisa e commita
 #Editei 
+# Edita la dnv
