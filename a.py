@@ -7,8 +7,22 @@ print(lista)
 2
 lista = list(map(int, input().split()))
 posicao = int(input())
+22223
 
-# Bota alguma coisa e commita
-#Editei 
-# Edita la dnv
-#gerando conflitos
+33
+
+
+33
+3
+3
+3
+3
+3
+3
+
+3
+3
+3
+3
+3
+
