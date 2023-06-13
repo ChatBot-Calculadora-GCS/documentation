@@ -8,5 +8,5 @@ print(lista)
 lista = list(map(int, input().split()))
 posicao = int(input())
 
-
+# Bota alguma coisa e commita
 #Editei 
