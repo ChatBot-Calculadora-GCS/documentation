@@ -8,5 +8,5 @@ print(lista)
 lista = list(map(int, input().split()))
 posicao = int(input())
 
-print(lista[posicao])
-lista.pop(po
+
+#Editei 
