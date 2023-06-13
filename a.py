@@ -1,3 +1,24 @@
+
+qwdqd
+asd
+ qw
+ d 
+ 23e
+ 1243
+ 11
+ 23452
+ 34
+ 
+ 
+  f
+  dg
+   f
+   hgt
+   y
+   e r
+   t
+   gf
+
 1
 lista = list(map(int, input().split()))
 numinserido, posicao = map(int, input().split())
@@ -7,7 +28,7 @@ print(lista)
 2
 lista = list(map(int, input().split()))
 posicao = int(input())
-22223
+222
 
 33
 
