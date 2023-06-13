@@ -1,13 +1,22 @@
-1
-lista = list(map(int, input().split()))
-numinserido, posicao = map(int, input().split())
-
-lista.insert(posicao, numinserido)
-print(lista)
-2
-lista = list(map(int, input().split()))
-posicao = int(input())
-
-# Bota alguma coisa e commita
-#Editei 
-# Edita la dnv
+1231 2
+12 e
+we 1
+2e s
+d
+ d
+  d 
+  sd 
+  23
+  
+  3
+  2 3
+  2
+  
+  
+  
+  e r
+  er 
+  234
+  2
+  
+  fdf
